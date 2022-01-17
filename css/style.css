@@ -93,6 +93,11 @@ ul {
   color: var(--colorSecondary);
 }
 
+.nav li.selected{
+  background-color: var(--colorPrimary);
+  color: var(--colorSecondary);
+}
+
 .nav__item {
   color: inherit;
   text-decoration: none;
@@ -186,9 +191,9 @@ ul {
     border-radius: 8px;
 }
 
-/* not found */
+/* single text */
 
-.not-found{
+.single-text{
   background-color: var(--colorSecondary);
   color: var(--colorPrimary);
   font-size: 3rem;
@@ -248,7 +253,7 @@ ul {
     .comment__text{
         font-size: 1.2rem;
     }
-    .not-found{
+    .single-text{
       font-size: 2rem;
     }
 }
