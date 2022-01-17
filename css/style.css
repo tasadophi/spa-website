@@ -186,6 +186,18 @@ ul {
     border-radius: 8px;
 }
 
+/* not found */
+
+.not-found{
+  background-color: var(--colorSecondary);
+  color: var(--colorPrimary);
+  font-size: 3rem;
+  padding: 5rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 4rem;
+}
+
 /* medias */
 @media screen and (max-width: 768px){
     .main{
@@ -235,5 +247,8 @@ ul {
     }
     .comment__text{
         font-size: 1.2rem;
+    }
+    .not-found{
+      font-size: 2rem;
     }
 }
