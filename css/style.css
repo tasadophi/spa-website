@@ -1,0 +1,45 @@
+*,
+* ::after,
+* ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* fonts */
+@font-face {
+  font-family: "vazir";
+  src: url("../assets/font/vazir/Vazir-FD.woff");
+}
+
+@font-face {
+  font-family: "vazirBold";
+  src: url("../assets/font/vazir/Vazir-Bold-FD.woff");
+}
+
+/* variables */
+:root {
+  --colorPrimary: #6d28d9;
+  --colorSecondary: #ede9fe;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGray: #7c7c7c;
+  --mainRed: #db2777;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.1rem;
+  --bodyColor: #f6f6f6;
+}
+
+body {
+  background-color: var(--bodyColor);
+  font-family: "vazir";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1rem;
+}
