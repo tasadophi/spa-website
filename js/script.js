@@ -30,7 +30,7 @@ function router() {
   if (route) {
     content.innerHTML = route.src();
     route.btn.classList.add("selected");
-  } else if (location.pathname == "/index.html") content.innerHTML = home();
+  } else if (location.pathname == "/") content.innerHTML = home();
   else content.innerHTML = notfound();
 }
 
